@@ -1,0 +1,318 @@
+body{
+    background-color: beige
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/*index*/
+
+.menu{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3.0rem;
+    display: flex; 
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    justify-content: center;
+    max-width: 100%;
+    
+}
+.menu a {
+    background: linear-gradient(to left,gray,beige,gray);
+    padding: 0.9rem;
+    margin: 1%;
+    border-radius: 2rem;
+    font-size: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    max-width: 15%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    }
+   .img1{
+    width: 60%;
+   }
+
+   
+.contenedor1{
+    display: flex; 
+  flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    max-width: 100%;
+
+    justify-content: space-between;
+    background:linear-gradient(to left,gray,beige,gray);
+}
+.contenedor-izquierdo{
+    margin-top: 7% ;
+   max-width: 60%;
+   flex: 1 1 100%;
+   
+}
+.titulo1{
+background-color: white;
+    border: 0.050rem solid black;
+    width: 50%;
+    margin-top: -5%;
+    margin-bottom: 3%;
+    font-size: 150%;
+    border-radius: 2rem;
+    padding: 2.6%;
+    flex: 1 1 100%;
+    
+}
+.parrafo1{
+    background-color:  white;
+    font-size: 110% ;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 0.050rem black;
+    width: 90%;
+    border-radius: 2rem;
+    padding: 3.2%;
+    flex: 1 1 100%;
+   
+}
+.contenedor-derecho{
+ margin-left: 2%;
+ max-width: 35%;
+ margin-top: 4% ;
+ flex: 1 1 100%;
+
+}
+
+.piepagina-contenedor{
+  
+    background-color: black;
+    border: solid 2px black;
+    color: white;
+max-width: 100%;
+    padding: 5%;
+    flex: 1 1 100%;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.piepagina-texto{
+    max-width: 50%;
+    flex: 1 1 100%;
+    font-size: 110% ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.piepagina-redes{
+    max-width: 50%;
+    flex: 1 1 100%;
+    
+}
+/*finindex*/
+
+/*Familia*/
+.contenedor2{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   flex: 1 1 100%;
+   max-width: 100%;
+   
+    background:linear-gradient(to left,gray,beige,gray);
+}
+.contenedor-izquierdo2{
+    margin-top: 5% ;
+    max-width: 60%;
+    flex: 1 1 100%;
+   
+}
+.contenedor-izquierdo2 video{
+    margin-top: 4%;
+    width: 60%;
+}
+
+.titulo2{
+    font-size: 150%;
+    background-color: white;
+    border: solid 0.050rem black;
+    border-radius: 2rem;
+    margin-bottom: 3%;
+    padding: 2.6%;
+    flex: 1 1 100%;
+   
+}
+.parrafo2{
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: solid 0.050rem black;
+    border-radius: 2rem ;
+    padding: 3.8%;
+    flex: 1 1 100%;
+    
+}
+.contenedor-derecho2{
+    max-width: 35%;
+    margin-top: 5% ;
+    width: 90%;
+    flex: 1 1 100%;
+    
+}
+
+/*familia*/
+
+/*aficiones*/
+.contenedor3{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  flex: 1 1 100%;
+  max-width: 100%;
+     background:linear-gradient(to left,gray,beige,gray);
+}
+.contenidor-izquierdo3{
+    flex: 1 1 100%;
+    margin-top: 5% ;
+    max-width: 60%;
+ 
+}
+.titulo3{
+    font-size: 150%;
+    background-color: white;
+    border: solid 0.050rem black;
+    border-radius:2rem;
+    padding: 2.6%;
+    flex: 1 1 100%;
+    margin-bottom: 3%;
+    
+}
+.parrafo3{
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: solid 0.050rem black;
+    border-radius: 2rem;
+    padding: 3.8%;
+    flex: 1 1 100%;
+   
+}
+
+.contenedor-derecho3{
+    
+    margin-left: 3%;
+    max-width: 35%;
+    margin-top: 5% ;
+
+    flex: 1 1 100%;
+   
+}
+
+/*aficiones*/
+
+/*Hobbies*/
+.contenedor4{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 1 100%;
+    max-width: 100%;
+ 
+     background:linear-gradient(to left,gray,beige,gray);
+}
+.contenidor-izquierdo4{
+    flex: 1 1 100%;
+    margin-top: 6%  ;
+    max-width: 60%;
+ 
+}
+.titulo4{
+    font-size: 150%;
+    background-color: white;
+    border: solid 0.050rem black;
+    width: 90%;
+    border-radius: 2rem;
+    padding: 2.6%;
+    flex: 1 1 100%;
+   margin-bottom: 3%;
+}
+.parrafo4{
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: solid 0.050rem black;
+    width: 90%;
+    border-radius: 2rem;
+    padding: 3.8%;
+    flex: 1 1 100%;
+   
+}
+.contenedor-derecho4{
+    margin-left: 3%;
+    max-width: 35%;
+    margin-top: 6% ;
+   
+    flex: 1 1 100%;
+}
+
+/*Hobbies*/
+
+/*contacto*/
+.contenedor5{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    padding: 4rem;
+   flex: 1 1 100%;
+   max-width: 100%;
+    text-align: center;
+    justify-content: center;
+     background:linear-gradient(to left,gray,beige,gray);
+}
+
+.titulo5{
+    font-size: 150%;
+    background-color: white;
+    border: solid 0.050rem black;
+    margin-left: 3%;
+    border-radius: 2rem;
+    padding: 2%;
+    flex: 1 1 100%;
+   max-width: 62%;
+
+}
+.parrafo5{
+    font-size: 110%;
+    margin-left: 3%;
+    max-width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: solid 0.050rem black;
+    border-radius: 2rem;
+    padding: 2%;
+    flex: 1 1 100%;
+   margin-top: 3%;
+
+}
+table{
+    max-width: 62%;
+   margin-left: 3%;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: solid 0.050rem black;
+    border-radius: 2rem;
+    padding: 1.8%;
+    flex: 1 1 100%;
+   margin-top: 2%;
+}
+td{
+    text-align: center;
+}
+
+
